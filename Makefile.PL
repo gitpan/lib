@@ -7,7 +7,7 @@ use strict;
 use ExtUtils::MakeMaker;
 WriteMakefile(
   'NAME' => 'lib',
-  'VERSION' => '0.56_01',
+  'VERSION' => '0.57',
   'LICENSE' => 'perl',
   'PREREQ_PM' => {},
   'ABSTRACT_FROM' => 'lib_pm.PL',
