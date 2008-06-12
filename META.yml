@@ -1,13 +1,17 @@
 --- #YAML:1.0
 name:                lib
-version:             0.57
+version:             0.58
 abstract:            manipulate @INC at compile time
 license:             perl
 author:              
     - Steffen Mueller <smueller@cpan.org>
-generated_by:        ExtUtils::MakeMaker version 6.42
+generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3
+provides:
+  lib:
+    file: lib_pm.PL
+    version: 0.58
