@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                lib
-version:             0.59_01
+version:             0.60
 abstract:            manipulate @INC at compile time
 license:             perl
 author:              
@@ -14,4 +14,4 @@ meta-spec:
 provides:
   lib:
     file: lib_pm.PL
-    version: 0.59_01
+    version: 0.60
